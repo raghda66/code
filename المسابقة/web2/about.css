@@ -1,0 +1,144 @@
+
+*{
+    font-family: sans-serif;
+}
+
+header section{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+header button{
+    position: absolute; 
+    z-index: -1;
+    border: none;
+    background-color: white;
+    color: gray;
+    width: 50px;
+    height: 40px;;
+    padding-left: 30px;
+    font-size: 17px;
+    
+}
+.secleft{
+    position: relative;
+    margin-left: 80px;
+    margin-top: 30px;
+   
+}
+
+.isearch{ 
+  
+    margin-bottom:  50px; 
+    padding-right: 90px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+}
+
+header h3{
+    border: 2px solid black;
+    color: black;
+    height: 22px;
+    width: 70px;
+    font-size: 20px;
+  margin-top: 30px;
+  padding: 0px 7px;
+}
+
+.secright{
+  
+    margin-right: 80px;
+    size: 30px;
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    color:black;
+}
+nav a{
+    text-decoration-line: none;
+   color: black;
+}
+a:hover{
+    color: blueviolet;
+}
+nav{
+   
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  
+    height: 25px;
+}
+select{
+    border: none;
+ }
+ .home{
+    color: blueviolet;
+ }
+
+.upp{
+    background-color: rgb(230, 224, 224);
+    height: 40px;
+    width: 100%;
+    text-indent: 40px;
+   padding-top: 15px;
+ }
+
+ .sec1{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 80px;
+    height: 400px;
+ }
+ .div2sec1{
+    width:430px;
+    margin: 15px 80px 0px 0px;
+ }
+ .div2sec1 p{
+    color: grey;
+ }
+ hr{
+    color: grey;
+ }
+
+ .sec3{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+ }
+ .sec3 div{
+    width: 250px;
+    text-align: center;
+ }
+ .sec3 img{
+    border-radius: 50px;
+ }
+ .sec3 p{
+    color: gray;
+ }
+ footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 50px 30px 50px;
+}
+
+ul{
+    list-style-type: none;
+} 
+.conact{
+    display: flex;
+    justify-content: ;
+
+}
+footer button{
+    color: aliceblue;
+    background-color: rgb(106, 30, 177);
+    border: none;
+    font-size: 13px;
+    width: 100px;
+    height: 40px;
+    
+}
